@@ -1,0 +1,23 @@
+Collecting twilio
+  Downloading twilio-6.47.0.tar.gz (460 kB)
+Requirement already satisfied: six in c:\users\akkav\desktop\machinehack_11062020\venvgreatindianhack\lib\site-packages (from twilio) (1.15.0)
+Requirement already satisfied: pytz in c:\users\akkav\desktop\machinehack_11062020\venvgreatindianhack\lib\site-packages (from twilio) (2020.4)
+Collecting PyJWT>=1.4.2
+  Downloading PyJWT-1.7.1-py2.py3-none-any.whl (18 kB)
+Collecting requests>=2.0.0
+  Downloading requests-2.25.0-py2.py3-none-any.whl (61 kB)
+Collecting idna<3,>=2.5
+  Using cached idna-2.10-py2.py3-none-any.whl (58 kB)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\akkav\desktop\machinehack_11062020\venvgreatindianhack\lib\site-packages (from requests>=2.0.0->twilio) (2020.6.20)
+Collecting chardet<4,>=3.0.2
+  Using cached chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.2-py2.py3-none-any.whl (136 kB)
+Building wheels for collected packages: twilio
+  Building wheel for twilio (setup.py): started
+  Building wheel for twilio (setup.py): finished with status 'done'
+  Created wheel for twilio: filename=twilio-6.47.0-py2.py3-none-any.whl size=1217346 sha256=1d37c6f572a4920c77a0dc0f034ac1c8ec08e62aa1ed54100f38d76bd553f2b0
+  Stored in directory: c:\users\akkav\appdata\local\pip\cache\wheels\05\56\a7\6deb267863e99178947e34ae9d1962add3bfec31574f9b8e9d
+Successfully built twilio
+Installing collected packages: PyJWT, idna, chardet, urllib3, requests, twilio
+Successfully installed PyJWT-1.7.1 chardet-3.0.4 idna-2.10 requests-2.25.0 twilio-6.47.0 urllib3-1.26.2

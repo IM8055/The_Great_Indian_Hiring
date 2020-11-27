@@ -1,0 +1,1213 @@
+
+Date Time: 13-11-2020 17:20:57
+
+Model Name: <class 'sklearn.ensemble.forest.RandomForestRegressor'>
+Model File Name: GP Minimize Hyper Parameter
+Model Score: 20.6419007035669
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'CustomerID', 'Country', 'f_InvoiceDateYear', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_StockAvailablity2011', 'f_GrpCustomerID_Quantity_mean', 'f_GrpCustomerID_InvoiceNo_nunique', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro', 'f_QuantityBins_Small', 'f_InvoiceDateMonthStart_False', 'f_InvoiceDateMonthStart_True', 'f_InvoiceDatePartOfDay_Afternoon', 'f_InvoiceDatePartOfDay_Evening', 'f_InvoiceDatePartOfDay_Morning'], dtype='object')
+Model Hyper Parameters:
+{'n_estimators': 1785, 'max_depth': 48, 'min_samples_split': 4, 'min_samples_leaf': 10, 'max_features': 0.18834417420539187}
+Model Preprocessing Comments:
+GP minimize
+Model Comments:
+Random Forest Regressor Model Test
+Git Comment ID:
+504
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+Date Time: 13-11-2020 18:40:54
+
+Model Name: ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
+Model File Name: Model Comparison
+Model Score: 24.8765
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'CustomerID', 'Country', 'f_InvoiceDateYear', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_StockAvailablity2011', 'f_GrpCustomerID_Quantity_mean', 'f_GrpCustomerID_InvoiceNo_nunique', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro', 'f_QuantityBins_Small', 'f_InvoiceDateMonthStart_False', 'f_InvoiceDateMonthStart_True', 'f_InvoiceDatePartOfDay_Afternoon', 'f_InvoiceDatePartOfDay_Evening', 'f_InvoiceDatePartOfDay_Morning'], dtype='object')
+Model Hyper Parameters:
+[ 2.19020801e-04  1.94626412e-03  2.08440257e-05 -2.27917433e-01
+ -1.94788640e-04 -2.47980314e-02 -0.00000000e+00 -0.00000000e+00
+ -0.00000000e+00 -6.33699622e-02 -0.00000000e+00 -0.00000000e+00
+  0.00000000e+00 -0.00000000e+00  7.11051930e-01 -1.96082184e-03
+ -4.71048960e-01  0.00000000e+00 -8.06998121e-03  0.00000000e+00
+ -0.00000000e+00  0.00000000e+00 -0.00000000e+00  0.00000000e+00
+ -0.00000000e+00 -0.00000000e+00]
+Model Preprocessing Comments:
+Comparing Models
+Model Comments:
+Comparing Models
+Git Comment ID:
+504
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+Date Time: 14-11-2020 10:00:33
+
+Model Name: ElasticNet
+Model File Name: Model Comparison
+Model Score: 24.8765
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'CustomerID', 'Country', 'f_InvoiceDateYear', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_StockAvailablity2011', 'f_GrpCustomerID_Quantity_mean', 'f_GrpCustomerID_InvoiceNo_nunique', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro', 'f_QuantityBins_Small', 'f_InvoiceDateMonthStart_False', 'f_InvoiceDateMonthStart_True', 'f_InvoiceDatePartOfDay_Afternoon', 'f_InvoiceDatePartOfDay_Evening', 'f_InvoiceDatePartOfDay_Morning'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 1.0, 'copy_X': True, 'fit_intercept': True, 'l1_ratio': 0.5, 'max_iter': 1000, 'normalize': False, 'positive': False, 'precompute': False, 'random_state': None, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}
+Model Preprocessing Comments:
+Comparing Models
+Model Comments:
+Comparing Models
+Git Comment ID:
+504
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+Date Time: 15-11-2020 10:06:56
+
+Model Name: <class 'sklearn.linear_model.coordinate_descent.ElasticNet'>
+Model File Name: GP Minimize Hyper Parameter
+Output File Name: None
+Model Score: 23.29024691234995
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'CustomerID', 'Country', 'f_InvoiceDateYear', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_StockAvailablity2011', 'f_GrpCustomerID_Quantity_mean', 'f_GrpCustomerID_InvoiceNo_nunique', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro', 'f_QuantityBins_Small', 'f_InvoiceDateMonthStart_False', 'f_InvoiceDateMonthStart_True', 'f_InvoiceDatePartOfDay_Afternoon', 'f_InvoiceDatePartOfDay_Evening', 'f_InvoiceDatePartOfDay_Morning'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.21717828345731144, 'l1_ratio': 0.2183802856074189, 'max_iter': 2024, 'normalize': 'False'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Initial File
+Model Comments:
+ElasticNet
+Git Comment ID:
+505
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 15-11-2020 10:06:56
+
+Model Name: ElasticNet
+Model File Name: ElasticNet_15_11_2020_100656.sav
+Output File Name: Output_15_11_2020_100656.csv
+Model Score: 0
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'CustomerID', 'Country', 'f_InvoiceDateYear', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_StockAvailablity2011', 'f_GrpCustomerID_Quantity_mean', 'f_GrpCustomerID_InvoiceNo_nunique', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro', 'f_QuantityBins_Small', 'f_InvoiceDateMonthStart_False', 'f_InvoiceDateMonthStart_True', 'f_InvoiceDatePartOfDay_Afternoon', 'f_InvoiceDatePartOfDay_Evening', 'f_InvoiceDatePartOfDay_Morning'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.21717828345731144, 'l1_ratio': 0.2183802856074189, 'max_iter': 2024, 'normalize': 'False'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Initial File
+3. Fitted Model.
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+505
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 16-11-2020 09:45:56
+
+Model Name: <class 'sklearn.linear_model.coordinate_descent.ElasticNet'>
+Model File Name: GP Minimize Hyper Parameter
+Output File Name: None
+Model Score: 23.29024691234995
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'CustomerID', 'Country', 'f_InvoiceDateYear', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_StockAvailablity2011', 'f_GrpCustomerID_Quantity_mean', 'f_GrpCustomerID_InvoiceNo_nunique', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro', 'f_QuantityBins_Small', 'f_InvoiceDateMonthStart_False', 'f_InvoiceDateMonthStart_True', 'f_InvoiceDatePartOfDay_Afternoon', 'f_InvoiceDatePartOfDay_Evening', 'f_InvoiceDatePartOfDay_Morning'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.34612144376964343, 'l1_ratio': 0.2529524058394556, 'max_iter': 2856, 'normalize': 'True'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Min Max Normalization Implemented
+Model Comments:
+ElasticNet- GP Minimize HyperParameters
+Git Comment ID:
+506
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 16-11-2020 09:45:57
+
+Model Name: ElasticNet
+Model File Name: ElasticNet_16_11_2020_094556.sav
+Output File Name: Output_16_11_2020_094556.csv
+Model Score: 0
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'CustomerID', 'Country', 'f_InvoiceDateYear', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_StockAvailablity2011', 'f_GrpCustomerID_Quantity_mean', 'f_GrpCustomerID_InvoiceNo_nunique', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro', 'f_QuantityBins_Small', 'f_InvoiceDateMonthStart_False', 'f_InvoiceDateMonthStart_True', 'f_InvoiceDatePartOfDay_Afternoon', 'f_InvoiceDatePartOfDay_Evening', 'f_InvoiceDatePartOfDay_Morning'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.34612144376964343, 'l1_ratio': 0.2529524058394556, 'max_iter': 2856, 'normalize': 'True'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Min Max Normalization Implemented
+3. Fitted Model.
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+506
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 16-11-2020 10:08:26
+
+Model Name: ElasticNet
+Model File Name: Model Comparison
+Output File Name: None
+Model Score: 24.8766
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'CustomerID', 'Country', 'f_InvoiceDateYear', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_StockAvailablity2011', 'f_GrpCustomerID_Quantity_mean', 'f_GrpCustomerID_InvoiceNo_nunique', 'f_GrpInvoiceNo_Quantity_mean'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 1.0, 'copy_X': True, 'fit_intercept': True, 'l1_ratio': 0.5, 'max_iter': 1000, 'normalize': False, 'positive': False, 'precompute': False, 'random_state': None, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}
+Model Preprocessing Comments:
+1. Model Comparison after dropping columns.
+2. Model Comparison after normalizing
+Model Comments:
+
+Git Comment ID:
+506
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 16-11-2020 13:15:41
+
+Model Name: <class 'sklearn.ensemble.forest.RandomForestRegressor'>
+Model File Name: GP Minimize Hyper Parameter
+Output File Name: None
+Model Score: 20.284907558991762
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'CustomerID', 'Country', 'f_InvoiceDateYear', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_StockAvailablity2011', 'f_GrpCustomerID_Quantity_mean', 'f_GrpCustomerID_InvoiceNo_nunique', 'f_GrpInvoiceNo_Quantity_mean'], dtype='object')
+Model Hyper Parameters:
+{'n_estimators': 506, 'max_depth': 19, 'min_samples_split': 4, 'min_samples_leaf': 6, 'max_features': 0.20831622575413059}
+Model Preprocessing Comments:
+1. RandomForestRegressor GP minimize
+2. Dropped ['InvoiceDate', 'f_GrpCustomerID_CustomerID_size', 'f_GrpCustomerID_Quantity_sum', 'f_GrpCustomerID_Quantity_min', 'f_GrpCustomerID_Quantity_max', 'f_GrpCustomerID_StockCode_nunique', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_min', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_InvoiceNo_size', 'f_GrpInvoiceNo_StockCode_nunique', 'f_GrpCustomerID_InvoiceNo_size', 'f_GrpCustomerID_StockCode_size', 'f_GrpCustomerID_CustomerID_nunique', 'f_GrpInvoiceNo_StockCode_size', 'f_GrpInvoiceNo_InvoiceNo_nunique', 'f_QuantityBins', 'f_InvoiceDatePartOfDay', 'f_InvoiceDateMonthStart']
+Model Comments:
+RandomForestRegressor- GP Minimize HyperParameters
+Git Comment ID:
+507
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 16-11-2020 13:19:19
+
+Model Name: RandomForestRegressor
+Model File Name: RandomForestRegressor_16_11_2020_131541.sav
+Output File Name: Output_16_11_2020_131541.csv
+Model Score: 0
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'CustomerID', 'Country', 'f_InvoiceDateYear', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_StockAvailablity2011', 'f_GrpCustomerID_Quantity_mean', 'f_GrpCustomerID_InvoiceNo_nunique', 'f_GrpInvoiceNo_Quantity_mean'], dtype='object')
+Model Hyper Parameters:
+{'n_estimators': 506, 'max_depth': 19, 'min_samples_split': 4, 'min_samples_leaf': 6, 'max_features': 0.20831622575413059}
+Model Preprocessing Comments:
+1. RandomForestRegressor GP minimize
+2. Fitted Model.
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+507
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 16-11-2020 18:47:53
+
+Model Name: LinearRegression
+Model File Name: Model Comparison
+Output File Name: None
+Model Score: 24.856
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'CustomerID', 'Country', 'f_GrpCustomerID_Quantity_mean', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'normalize': False}
+Model Preprocessing Comments:
+1. Model comparison after feature selection
+Model Comments:
+None
+Git Comment ID:
+508
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+Date Time: 16-11-2020 20:06:41
+
+Model Name: RandomForestRegressor
+Model File Name: GP Minimize Hyper Parameters
+Output File Name: None
+Model Score: 19.785925544864053
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'CustomerID', 'Country', 'f_GrpCustomerID_Quantity_mean', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'n_estimators': 1678, 'max_depth': 41, 'min_samples_split': 9, 'min_samples_leaf': 2, 'max_features': 0.20269588505963318}
+Model Preprocessing Comments:
+1. RandomForestRegressor GP minimize
+2. RandomForestRegressor after feature selection
+Model Comments:
+RandomForestRegressor- GP Minimize HyperParameters
+Git Comment ID:
+508
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 16-11-2020 20:24:00
+
+Model Name: RandomForestRegressor
+Model File Name: RandomForestRegressor_16_11_2020_200641.sav
+Output File Name: Output_16_11_2020_200641.csv
+Model Score: 0
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'CustomerID', 'Country', 'f_GrpCustomerID_Quantity_mean', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'n_estimators': 1678, 'max_depth': 41, 'min_samples_split': 9, 'min_samples_leaf': 2, 'max_features': 0.20269588505963318}
+Model Preprocessing Comments:
+1. RandomForestRegressor GP minimize
+2. Fitted Model.
+3. RandomForestRegressor after feature selection
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+508
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 17-11-2020 20:08:52
+
+Model Name: GradientBoostingRegressor
+Model File Name: GP Minimize Hyper Parameters
+Output File Name: None
+Model Score: 23.289459352945396
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'CustomerID', 'Country', 'f_GrpCustomerID_Quantity_mean', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'learning_rate': 0.9359929221255627, 'n_estimators': 971, 'subsample': 0.3629157494060748, 'min_samples_split': 0.6911323688195782, 'min_samples_leaf': 0.3218046397466164, 'min_weight_fraction_leaf': 0.23427203195351176, 'max_depth': 854, 'max_features': 0.39302141976491434}
+Model Preprocessing Comments:
+1. GradientBoostingRegressor GP minimize
+2. GradientBoostingRegressor after feature selection
+Model Comments:
+GradientBoostingRegressor- GP Minimize HyperParameters
+Git Comment ID:
+509
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 17-11-2020 20:09:27
+
+Model Name: GradientBoostingRegressor
+Model File Name: GradientBoostingRegressor_17_11_2020_200852.sav
+Output File Name: Output_17_11_2020_200852.csv
+Model Score: 0
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'CustomerID', 'Country', 'f_GrpCustomerID_Quantity_mean', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'learning_rate': 0.9359929221255627, 'n_estimators': 971, 'subsample': 0.3629157494060748, 'min_samples_split': 0.6911323688195782, 'min_samples_leaf': 0.3218046397466164, 'min_weight_fraction_leaf': 0.23427203195351176, 'max_depth': 854, 'max_features': 0.39302141976491434}
+Model Preprocessing Comments:
+1. GradientBoostingRegressor GP minimize
+2. Fitted Model.3. GradientBoostingRegressor after feature selection
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+509
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 18-11-2020 10:40:05
+
+Model Name: RandomForestRegressor
+Model File Name: GP Minimize Hyper Parameters
+Output File Name: None
+Model Score: 21.079168624484886
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_min', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'n_estimators': 1558, 'max_depth': 26, 'min_samples_split': 6, 'min_samples_leaf': 3, 'max_features': 0.3196994029015354}
+Model Preprocessing Comments:
+1. RandomForestRegressor GP minimize
+2. RandomForestRegressor after feature selection
+3. Last preprocessing we failed to comment columnstodrop leading to incorrect feature selection.
+Model Comments:
+RandomForestRegressor- GP Minimize HyperParameters
+Git Comment ID:
+510
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 18-11-2020 10:58:05
+
+Model Name: RandomForestRegressor
+Model File Name: RandomForestRegressor_18_11_2020_104005.sav
+Output File Name: Output_18_11_2020_104005.csv
+Model Score: 0
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_min', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'n_estimators': 1558, 'max_depth': 26, 'min_samples_split': 6, 'min_samples_leaf': 3, 'max_features': 0.3196994029015354}
+Model Preprocessing Comments:
+1. RandomForestRegressor GP minimize
+2. RandomForestRegressor fitted on complete data.
+3. RandomForestRegressor after feature selection
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+510
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 18-11-2020 18:17:26
+
+Model Name: RandomForestRegressor
+Model File Name: GP Minimize Hyper Parameters
+Output File Name: None
+Model Score: 16.6023907396844
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'CustomerID', 'Country', 'f_InvoiceDateWeekend', 'f_GrpCustomerID_Quantity_min', 'f_GrpCustomerID_Quantity_mean', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_min', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'n_estimators': 200, 'max_depth': 41, 'min_samples_split': 3, 'min_samples_leaf': 1, 'max_features': 0.23390926332253964}
+Model Preprocessing Comments:
+1. RandomForestRegressor GP minimize
+2. RandomForestRegressor after feature selection
+3. Selecting top 15 features
+Model Comments:
+RandomForestRegressor- GP Minimize HyperParameters
+Git Comment ID:
+511
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 18-11-2020 18:20:07
+
+Model Name: RandomForestRegressor
+Model File Name: RandomForestRegressor_18_11_2020_181726.sav
+Output File Name: Output_18_11_2020_181726.csv
+Model Score: 0
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'CustomerID', 'Country', 'f_InvoiceDateWeekend', 'f_GrpCustomerID_Quantity_min', 'f_GrpCustomerID_Quantity_mean', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_min', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'n_estimators': 200, 'max_depth': 41, 'min_samples_split': 3, 'min_samples_leaf': 1, 'max_features': 0.23390926332253964}
+Model Preprocessing Comments:
+1. RandomForestRegressor GP minimize
+2. RandomForestRegressor fitted on top 15 features.
+3. RandomForestRegressor after feature selection
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+511
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 18-11-2020 19:21:12
+
+Model Name: GradientBoostingRegressor
+Model File Name: GP Minimize Hyper Parameters
+Output File Name: None
+Model Score: 23.097898619492884
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'CustomerID', 'Country', 'f_InvoiceDateWeekend', 'f_GrpCustomerID_Quantity_min', 'f_GrpCustomerID_Quantity_mean', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_min', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'learning_rate': 0.728288864205065, 'n_estimators': 884, 'subsample': 0.483946719125111, 'min_samples_split': 0.16762645312918348, 'min_samples_leaf': 0.14070039701254064, 'min_weight_fraction_leaf': 0.28423860247795074, 'max_depth': 678, 'max_features': 0.7200573181519404}
+Model Preprocessing Comments:
+1. GradientBoostingRegressor GP minimize
+2. GradientBoostingRegressor after feature selection
+3. Selecting top 15 features
+Model Comments:
+GradientBoostingRegressor- GP Minimize HyperParameters
+Git Comment ID:
+512
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 18-11-2020 19:22:40
+
+Model Name: GradientBoostingRegressor
+Model File Name: GradientBoostingRegressor_18_11_2020_192112.sav
+Output File Name: Output_18_11_2020_192112.csv
+Model Score: 0
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'CustomerID', 'Country', 'f_InvoiceDateWeekend', 'f_GrpCustomerID_Quantity_min', 'f_GrpCustomerID_Quantity_mean', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_min', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_Quantity_mean', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'learning_rate': 0.728288864205065, 'n_estimators': 884, 'subsample': 0.483946719125111, 'min_samples_split': 0.16762645312918348, 'min_samples_leaf': 0.14070039701254064, 'min_weight_fraction_leaf': 0.28423860247795074, 'max_depth': 678, 'max_features': 0.7200573181519404}
+Model Preprocessing Comments:
+1. GradientBoostingRegressor GP minimize
+2. GradientBoostingRegressor fitted on top 7 features.
+3. GradientBoostingRegressor after feature selection
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+512
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 18-11-2020 20:01:47
+
+Model Name: GradientBoostingRegressor
+Model File Name: GP Minimize Hyper Parameters
+Output File Name: None
+Model Score: 23.110863684282908
+Model Features:
+Index(['35', '43', '76', '83', '116', '643', '665'], dtype='object')
+Model Hyper Parameters:
+{'learning_rate': 0.6196132926827669, 'n_estimators': 1918, 'subsample': 0.901777017820474, 'min_samples_split': 0.37504403071309733, 'min_samples_leaf': 0.05769203990674111, 'min_weight_fraction_leaf': 0.19670520421773324, 'max_depth': 115, 'max_features': 0.09918135198782199}
+Model Preprocessing Comments:
+1. GradientBoostingRegressor GP minimize
+2. GradientBoostingRegressor after feature selection
+3. Selecting top 7 features
+4. Implemented Polynomial Transformation of degree 2
+
+Model Comments:
+GradientBoostingRegressor- GP Minimize HyperParameters
+Git Comment ID:
+513
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 18-11-2020 20:03:25
+
+Model Name: GradientBoostingRegressor
+Model File Name: GradientBoostingRegressor_18_11_2020_200147.sav
+Output File Name: Output_18_11_2020_200147.csv
+Model Score: 0
+Model Features:
+Index(['35', '43', '76', '83', '116', '643', '665'], dtype='object')
+Model Hyper Parameters:
+{'learning_rate': 0.6196132926827669, 'n_estimators': 1918, 'subsample': 0.901777017820474, 'min_samples_split': 0.37504403071309733, 'min_samples_leaf': 0.05769203990674111, 'min_weight_fraction_leaf': 0.19670520421773324, 'max_depth': 115, 'max_features': 0.09918135198782199}
+Model Preprocessing Comments:
+1. GradientBoostingRegressor GP minimize
+2. GradientBoostingRegressor fitted on top 7 features.
+3. GradientBoostingRegressor after feature selection4. Implemented Polynomial Transformation of degree 2
+
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+513
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+Date Time: 19-11-2020 10:28:12
+
+Model Name: HuberRegressor
+Model File Name: Model Comparison
+Output File Name: None
+Model Score: 0.9966
+Model Features:
+Int64Index([20, 28, 46, 53, 71, 181, 293, 305, 350, 352], dtype='int64')
+Model Hyper Parameters:
+{'alpha': 0.0001, 'epsilon': 1.35, 'fit_intercept': True, 'max_iter': 100, 'tol': 1e-05, 'warm_start': False}
+Model Preprocessing Comments:
+1. Model comparison after feature selection
+2. Model comparison after target transformation
+Model Comments:
+None
+Git Comment ID:
+514
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 19-11-2020 11:18:59
+
+Model Name: GradientBoostingRegressor
+Model File Name: GradientBoostingRegressor_19_11_2020_111710.sav
+Output File Name: Output_19_11_2020_111710.csv
+Model Score: 0
+Model Features:
+Index(['35', '43', '76', '83', '116', '643', '665'], dtype='object')
+Model Hyper Parameters:
+{'learning_rate': 0.6196132926827669, 'n_estimators': 1918, 'subsample': 0.901777017820474, 'min_samples_split': 0.37504403071309733, 'min_samples_leaf': 0.05769203990674111, 'min_weight_fraction_leaf': 0.19670520421773324, 'max_depth': 115, 'max_features': 0.09918135198782199}
+Model Preprocessing Comments:
+1. GradientBoostingRegressor GP minimize
+2. GradientBoostingRegressor fitted on top 7 features.
+3. GradientBoostingRegressor after feature selection4. Implemented Polynomial Transformation of degree 2
+5. Implemented target transformation 
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+514
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 19-11-2020 11:42:01
+
+Model Name: HuberRegressor
+Model File Name: GP Minimize Hyper Parameters
+Output File Name: None
+Model Score: 0.9956639063923481
+Model Features:
+Index(['35', '43', '76', '83', '116', '301', '518', '643', '665', '875'], dtype='object')
+Model Hyper Parameters:
+{'epsilon': 7.38106888552778, 'max_iter': 699, 'alpha': 17.88280096839313}
+Model Preprocessing Comments:
+1. HuberRegressor GP minimize
+2. HuberRegressor after feature selection
+3. Selecting top 10 features
+4. Implemented Polynomial Transformation of degree 2
+5. Implemented target transformation
+Model Comments:
+HuberRegressor- GP Minimize HyperParameters
+Git Comment ID:
+515
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 19-11-2020 11:42:04
+
+Model Name: HuberRegressor
+Model File Name: HuberRegressor_19_11_2020_114201.sav
+Output File Name: Output_19_11_2020_114201.csv
+Model Score: 0
+Model Features:
+Index(['35', '43', '76', '83', '116', '301', '518', '643', '665', '875'], dtype='object')
+Model Hyper Parameters:
+{'epsilon': 7.38106888552778, 'max_iter': 699, 'alpha': 17.88280096839313}
+Model Preprocessing Comments:
+1. HuberRegressor GP minimize
+2. HuberRegressor fitted on top 10 features.
+3. HuberRegressor after feature selection4. Implemented Polynomial Transformation of degree 2
+5. Implemented target transformation
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+515
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 19-11-2020 13:01:24
+
+Model Name: RandomForestRegressor
+Model File Name: GP Minimize Hyper Parameters
+Output File Name: None
+Model Score: 1.0157109038914642
+Model Features:
+Index(['35', '43', '76', '83', '116', '301', '518', '643', '665', '875'], dtype='object')
+Model Hyper Parameters:
+{'n_estimators': 1256, 'max_depth': 5, 'min_samples_split': 7, 'min_samples_leaf': 8, 'max_features': 0.353769621660504}
+Model Preprocessing Comments:
+1. RandomForestRegressor GP minimize
+2. RandomForestRegressor after feature selection
+3. Selecting top 10 features
+4. Implemented Polynomial Transformation of degree 2
+5. Implemented target transformation
+Model Comments:
+RandomForestRegressor- GP Minimize HyperParameters
+Git Comment ID:
+516
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 19-11-2020 13:04:26
+
+Model Name: RandomForestRegressor
+Model File Name: RandomForestRegressor_19_11_2020_130124.sav
+Output File Name: Output_19_11_2020_130124.csv
+Model Score: 0
+Model Features:
+Index(['35', '43', '76', '83', '116', '301', '518', '643', '665', '875'], dtype='object')
+Model Hyper Parameters:
+{'n_estimators': 1256, 'max_depth': 5, 'min_samples_split': 7, 'min_samples_leaf': 8, 'max_features': 0.353769621660504}
+Model Preprocessing Comments:
+1. RandomForestRegressor GP minimize
+2. RandomForestRegressor fitted on top 10 features.
+3. RandomForestRegressor after feature selection4. Implemented Polynomial Transformation of degree 2
+5. Implemented target transformation
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+516
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 19-11-2020 16:02:47
+
+Model Name: KNeighborsRegressor
+Model File Name: GP Minimize Hyper Parameters
+Output File Name: None
+Model Score: 1.1390441374348987
+Model Features:
+Index(['35', '43', '76', '83', '116', '301', '518', '643', '665', '875'], dtype='object')
+Model Hyper Parameters:
+{'n_neighbors': 41, 'weights': 'uniform', 'leaf_size': 84, 'p': 2}
+Model Preprocessing Comments:
+1. KNeighborsRegressor GP minimize
+2. KNeighborsRegressor after feature selection
+3. Selecting top 10 features
+4. Implemented Polynomial Transformation of degree 2
+5. Implemented target transformation
+Model Comments:
+KNeighborsRegressor- GP Minimize HyperParameters
+Git Comment ID:
+517
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 19-11-2020 16:05:46
+
+Model Name: KNeighborsRegressor
+Model File Name: KNeighborsRegressor_19_11_2020_160247.sav
+Output File Name: Output_19_11_2020_160247.csv
+Model Score: 0
+Model Features:
+Index(['35', '43', '76', '83', '116', '301', '518', '643', '665', '875'], dtype='object')
+Model Hyper Parameters:
+{'n_neighbors': 41, 'weights': 'uniform', 'leaf_size': 84, 'p': 2}
+Model Preprocessing Comments:
+1. KNeighborsRegressor GP minimize
+2. KNeighborsRegressor fitted on top 10 features.
+3. KNeighborsRegressor after feature selection
+4. Implemented Polynomial Transformation of degree 2
+5. Implemented target transformation
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+517
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+Date Time: 20-11-2020 10:14:31
+
+Model Name: ElasticNet
+Model File Name: Model Comparison
+Output File Name: None
+Model Score: 1.0
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Country', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_GrpCustomerID_Quantity_max', 'f_GrpInvoiceNo_InvoiceNo_size', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_StockCode_size', 'f_GrpInvoiceNo_StockCode_nunique', 'Description_2780', 'Description_1953'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 1.0, 'copy_X': True, 'fit_intercept': True, 'max_iter': 1000, 'normalize': False, 'positive': False, 'precompute': False, 'random_state': None, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}
+Model Preprocessing Comments:
+1. Feature selection - Top 17
+2. Model comparison after target transformation
+3. Removed "InvoiceDate" and "CustomerID"
+4. Top X Categories OHE "Description" column
+5. Implemented target transformation
+6. Removed Quantity binning and quantity outlier treatment
+Model Comments:
+Model Comparison
+Git Comment ID:
+518
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 20-11-2020 10:35:21
+
+Model Name: ElasticNet
+Model File Name: GP Minimize Hyper Parameters
+Output File Name: None
+Model Score: 0.9967465525512382
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Country', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_GrpCustomerID_Quantity_max', 'f_GrpInvoiceNo_InvoiceNo_size', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_StockCode_size', 'f_GrpInvoiceNo_StockCode_nunique', 'Description_2780', 'Description_1953'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.8004975000426547, 'l1_ratio': 0.6339536613222282, 'max_iter': 1811, 'normalize': 'True'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Selecting top 17 features
+3. Top X Categories OHE "Description" column
+4. Implemented target transformation
+5. Removed Quantity binning and quantity outlier treatment
+6. Removed "InvoiceDate" and "CustomerID"
+7. Removed "Quantity" binning and "quantity" outlier treatment..
+Model Comments:
+ElasticNet- GP Minimize HyperParameters
+Git Comment ID:
+518
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 20-11-2020 10:35:21
+
+Model Name: ElasticNet
+Model File Name: ElasticNet_20_11_2020_103521.sav
+Output File Name: Output_20_11_2020_103521.csv
+Model Score: 0
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Country', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_GrpCustomerID_Quantity_max', 'f_GrpInvoiceNo_InvoiceNo_size', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_StockCode_size', 'f_GrpInvoiceNo_StockCode_nunique', 'Description_2780', 'Description_1953'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.8004975000426547, 'l1_ratio': 0.6339536613222282, 'max_iter': 1811, 'normalize': 'True'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Selecting top 17 features
+3. Top X Categories OHE "Description" column
+4. Implemented target transformation
+5. Removed Quantity binning and quantity outlier treatment
+6. Removed "InvoiceDate" and "CustomerID"
+7. ElasticNet fitted on top 17 features.
+8. Removed "Quantity" binning and "quantity" outlier treatment..
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+518
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 20-11-2020 11:18:22
+
+Model Name: Lasso
+Model File Name: Model Comparison
+Output File Name: None
+Model Score: 0.9999800000000001
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Country', 'f_InvoiceDateMonth', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_GrpCustomerID_Quantity_max', 'f_GrpInvoiceNo_InvoiceNo_size', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_StockCode_size', 'f_GrpInvoiceNo_StockCode_nunique', 'Description_2780', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 1.0, 'copy_X': True, 'fit_intercept': True, 'max_iter': 1000, 'normalize': False, 'positive': False, 'precompute': False, 'random_state': None, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}
+Model Preprocessing Comments:
+1. Feature selection - Top 17
+2. Model comparison after target transformation
+3. Removed "InvoiceDate" and "CustomerID"4. Top X Categories OHE "Description" column
+5. Implemented target transformation
+6. Removed quantity outlier treatment
+Model Comments:
+Model Comparison
+Git Comment ID:
+519
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 20-11-2020 12:14:34
+
+Model Name: Lasso
+Model File Name: Model Comparison
+Output File Name: None
+Model Score: 0.9999800000000001
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'f_InvoiceDateWeekend', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpCountry_Country_size', 'f_GrpCountry_Quantity_sum', 'f_GrpCountry_Quantity_max', 'f_GrpCountry_InvoiceNo_size', 'f_GrpCountry_InvoiceNo_nunique', 'f_GrpCountry_StockCode_size', 'f_GrpCountry_StockCode_nunique', 'f_CountryID_35', 'f_CountryID_rest', 'Description_2780', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 1.0, 'copy_X': True, 'fit_intercept': True, 'max_iter': 1000, 'normalize': False, 'positive': False, 'precompute': False, 'random_state': None, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}
+Model Preprocessing Comments:
+1. Feature selection - Top 17
+2. Model comparison after target transformation
+3. Removed "InvoiceDate" and "CustomerID"4. Top X Categories OHE "Description" column
+5. Implemented target transformation
+6. Removed quantity outlier treatment
+7. Added CountryID Aggregation
+8. Added CountryID bucketing
+Model Comments:
+Model Comparison
+Git Comment ID:
+519
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 20-11-2020 12:58:56
+
+Model Name: ElasticNet
+Model File Name: GP Minimize Hyper Parameters
+Output File Name: None
+Model Score: 1.0055533082477233
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'f_InvoiceDateWeekend', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpCountry_Country_size', 'f_GrpCountry_Quantity_sum', 'f_GrpCountry_Quantity_max', 'f_GrpCountry_InvoiceNo_size', 'f_GrpCountry_InvoiceNo_nunique', 'f_GrpCountry_StockCode_size', 'f_GrpCountry_StockCode_nunique', 'f_CountryID_35', 'f_CountryID_rest', 'Description_2780', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.19624034732409584, 'l1_ratio': 0.41204296259488915, 'max_iter': 1550, 'normalize': 'True'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Selecting top 17 features
+3. Top X Categories OHE "Description" column
+4. Implemented target transformation
+5. Removed quantity outlier treatment
+6. Removed "InvoiceDate" and "CustomerID"
+7. Removed quantity outlier treatment
+8. Added CountryID Aggregation
+9. Added CountryID bucketing
+Model Comments:
+ElasticNet- GP Minimize HyperParameters
+Git Comment ID:
+519
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 20-11-2020 12:58:57
+
+Model Name: ElasticNet
+Model File Name: ElasticNet_20_11_2020_125856.sav
+Output File Name: Output_20_11_2020_125856.csv
+Model Score: 0
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'f_InvoiceDateWeekend', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpCountry_Country_size', 'f_GrpCountry_Quantity_sum', 'f_GrpCountry_Quantity_max', 'f_GrpCountry_InvoiceNo_size', 'f_GrpCountry_InvoiceNo_nunique', 'f_GrpCountry_StockCode_size', 'f_GrpCountry_StockCode_nunique', 'f_CountryID_35', 'f_CountryID_rest', 'Description_2780', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.19624034732409584, 'l1_ratio': 0.41204296259488915, 'max_iter': 1550, 'normalize': 'True'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Selecting top 17 features
+3. Top X Categories OHE "Description" column
+4. Implemented target transformation
+5. Removed quantity outlier treatment
+6. Removed "InvoiceDate" and "CustomerID"
+7. Removed quantity outlier treatment
+8. Added CountryID Aggregation
+9. Added CountryID bucketing
+10. ElasticNet fitted on top 17 features.
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+519
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 21-11-2020 10:02:26
+
+Model Name: Neural Network
+Model File Name: NeuralNetwork_21_11_2020_100223.json
+Output File Name: Output_21_11_2020_100223
+Model Score: 0.8642064481238282
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'f_InvoiceDateWeekend', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpCountry_Country_size', 'f_GrpCountry_Quantity_sum', 'f_GrpCountry_Quantity_max', 'f_GrpCountry_InvoiceNo_size', 'f_GrpCountry_InvoiceNo_nunique', 'f_GrpCountry_StockCode_size', 'f_GrpCountry_StockCode_nunique', 'f_CountryID_35', 'f_CountryID_rest', 'Description_2780', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+None
+Model Preprocessing Comments:
+1. Neural Network
+2. Selecting top 17 features
+3. Top X Categories OHE "Description" column
+4. Implemented target transformation
+5. Removed quantity outlier treatment
+6. Removed "InvoiceDate" and "CustomerID"
+7. Removed quantity outlier treatment
+8. Added CountryID Aggregation
+9. Added CountryID bucketing
+
+Model Comments:
+1. 5 hidden layers - 20 neurons in each layer and relu activation
+2. learning rate = 0.002
+3. NeuralNetwork_21_11_2020_100223.h5
+Git Comment ID:
+520
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+Date Time: 21-11-2020 11:34:32
+
+Model Name: Neural Network
+Model File Name: NeuralNetwork_21_11_2020_113334.json
+Output File Name: Output_21_11_2020_113334.csv
+Model Score: 164.64436865669526
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'CustomerID', 'f_InvoiceDateYear', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_StockAvailablity2011', 'f_GrpCustomerID_CustomerID_size', 'f_GrpCustomerID_CustomerID_nunique', 'f_GrpCustomerID_Quantity_sum', 'f_GrpCustomerID_Quantity_min', 'f_GrpCustomerID_Quantity_max', 'f_GrpCustomerID_Quantity_mean', 'f_GrpCustomerID_InvoiceNo_size', 'f_GrpCustomerID_InvoiceNo_nunique', 'f_GrpCustomerID_StockCode_size', 'f_GrpCustomerID_StockCode_nunique', 'f_GrpInvoiceNo_InvoiceNo_size', 'f_GrpInvoiceNo_InvoiceNo_nunique', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_min', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_Quantity_mean', 'f_GrpInvoiceNo_StockCode_size', 'f_GrpInvoiceNo_StockCode_nunique', 'f_GrpCountry_Country_size', 'f_GrpCountry_Country_nunique', 'f_GrpCountry_Quantity_sum', 'f_GrpCountry_Quantity_min', 'f_GrpCountry_Quantity_max', 'f_GrpCountry_Quantity_mean', 'f_GrpCountry_InvoiceNo_size', 'f_GrpCountry_InvoiceNo_nunique', 'f_GrpCountry_StockCode_size', 'f_GrpCountry_StockCode_nunique', 'f_CountryID_35', 'f_CountryID_rest', 'Description_3716', 'Description_2780', 'Description_1771', 'Description_217', 'Description_1953', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro', 'f_QuantityBins_Small', 'f_InvoiceDateMonthStart_False', 'f_InvoiceDateMonthStart_True', 'f_InvoiceDatePartOfDay_Afternoon', 'f_InvoiceDatePartOfDay_Evening', 'f_InvoiceDatePartOfDay_Morning'], dtype='object')
+Model Hyper Parameters:
+None
+Model Preprocessing Comments:
+1. Neural Network
+2. Selecting top 17 features
+3. Selecting all features.
+4. Implemented target transformation
+5. Removed quantity outlier treatment
+6. Removed "InvoiceDate"
+7. Added  "CustomerID"
+8. Removed quantity outlier treatment
+9. Added CountryID Aggregation
+10. Added CountryID bucketing
+
+Model Comments:
+1. 5 hidden layers - 20 neurons in each layer and relu activation
+2. learning rate = 0.002
+3. NeuralNetwork_21_11_2020_113334.h5
+Git Comment ID:
+521
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 21-11-2020 12:15:43
+
+Model Name: Neural Network
+Model File Name: NeuralNetwork_21_11_2020_120746.json
+Output File Name: Output_21_11_2020_120746.csv
+Model Score: 25.818142183847296
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'CustomerID', 'f_InvoiceDateYear', 'f_InvoiceDateMonth', 'f_InvoiceDateDay', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_InvoiceDateQuarter', 'f_StockAvailablity2010', 'f_StockAvailablity2011', 'f_GrpCustomerID_CustomerID_size', 'f_GrpCustomerID_CustomerID_nunique', 'f_GrpCustomerID_Quantity_sum', 'f_GrpCustomerID_Quantity_min', 'f_GrpCustomerID_Quantity_max', 'f_GrpCustomerID_Quantity_mean', 'f_GrpCustomerID_InvoiceNo_size', 'f_GrpCustomerID_InvoiceNo_nunique', 'f_GrpCustomerID_StockCode_size', 'f_GrpCustomerID_StockCode_nunique', 'f_GrpInvoiceNo_InvoiceNo_size', 'f_GrpInvoiceNo_InvoiceNo_nunique', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_min', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_Quantity_mean', 'f_GrpInvoiceNo_StockCode_size', 'f_GrpInvoiceNo_StockCode_nunique', 'f_GrpCountry_Country_size', 'f_GrpCountry_Country_nunique', 'f_GrpCountry_Quantity_sum', 'f_GrpCountry_Quantity_min', 'f_GrpCountry_Quantity_max', 'f_GrpCountry_Quantity_mean', 'f_GrpCountry_InvoiceNo_size', 'f_GrpCountry_InvoiceNo_nunique', 'f_GrpCountry_StockCode_size', 'f_GrpCountry_StockCode_nunique', 'f_CountryID_35', 'f_CountryID_rest', 'Description_3716', 'Description_2780', 'Description_1771', 'Description_217', 'Description_1953', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro', 'f_QuantityBins_Small', 'f_InvoiceDateMonthStart_False', 'f_InvoiceDateMonthStart_True', 'f_InvoiceDatePartOfDay_Afternoon', 'f_InvoiceDatePartOfDay_Evening', 'f_InvoiceDatePartOfDay_Morning'], dtype='object')
+Model Hyper Parameters:
+None
+Model Preprocessing Comments:
+1. Neural Network
+2. Selecting top 17 features
+3. Selecting all features.
+4. Implemented target transformation
+5. Removed quantity outlier treatment
+6. Removed "InvoiceDate"
+7. Added  "CustomerID"
+8. Added CountryID Aggregation
+9. Added CountryID bucketing
+
+Model Comments:
+1. 5 hidden layers - 100 neurons in each layer and relu activation
+2. learning rate = 0.001
+3. Epochs = 100
+4. NeuralNetwork_21_11_2020_120746.h5
+Git Comment ID:
+522
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+Date Time: 21-11-2020 19:08:19
+
+Model Name: Neural Network
+Model File Name: NeuralNetwork_21_11_2020_190208.json
+Output File Name: Output_21_11_2020_190208.csv
+Model Score: 86.25745073483463, 27.806842708714598
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'f_ProductReturned', 'f_StockCodeLength', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_Quantity_mean', 'f_GrpCountry_Country_size', 'f_GrpCountry_Quantity_sum', 'f_GrpCountry_InvoiceNo_nunique', 'f_GrpCountry_StockCode_nunique', 'Description_2780', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro'], dtype='object')
+Model Hyper Parameters:
+None
+Model Preprocessing Comments:
+1. Neural Network
+2. Selecting top 15 features
+4. Implemented target transformation
+5. Removed quantity outlier treatment
+6. Removed "InvoiceDate"
+7. Added  "CustomerID"
+8. Added CountryID Aggregation
+9. Added CountryID bucketing
+10. Added product returned.
+11. Added stock code length
+Model Comments:
+1. Model Config:
+	3 hidden layers
+	500 neurons in each layer
+	relu activation
+2. learning rate = 0.01
+3. Epochs = 20
+4. Batch Size 64
+5. Optimizer {'name': 'Adam', 'learning_rate': {'class_name': 'ExponentialDecay', 'config': {'initial_learning_rate': 0.01, 'decay_steps': 10000, 'decay_rate': 0.9, 'staircase': False, 'name': None}}, 'decay': 0.0, 'beta_1': 0.9, 'beta_2': 0.999, 'epsilon': 1e-07, 'amsgrad': False}5. NeuralNetwork_21_11_2020_190208.h5
+Git Comment ID:
+523
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+Date Time: 21-11-2020 22:14:35
+
+Model Name: ElasticNet
+Model File Name: ElasticNet_21_11_2020_221435.sav
+Output File Name: Output_21_11_2020_221435.csv
+Model Score: 0
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'f_ProductReturned', 'f_StockCodeLength', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_Quantity_mean', 'f_GrpCountry_Country_size', 'f_GrpCountry_Quantity_sum', 'f_GrpCountry_InvoiceNo_size', 'f_GrpCountry_InvoiceNo_nunique', 'f_GrpCountry_StockCode_size', 'f_GrpCountry_StockCode_nunique', 'Description_2780', 'f_QuantityBins_Large', 'f_QuantityBins_Micro', 'f_QuantityBins_vLarge'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.9109837068400527, 'l1_ratio': 0.8295122236769211, 'max_iter': 2055, 'normalize': 'False'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Selecting top 17 features
+3. Implemented target transformation
+4. Removed quantity outlier treatment
+5. Dropped duplicates
+6. Changed decay rate to 1e-6
+7. Capped outlier
+8. Added one more bins for "Quantity"
+9. Treated negative "Quantity"10. ElasticNet fitted on top 17 features.
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+524
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 22-11-2020 17:11:29
+
+Model Name: ElasticNet
+Model File Name: GP Minimize Hyper Parameters
+Output File Name: None
+Model Score: 45.35013579505253
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'f_ProductReturned', 'f_StockCodeLength', 'f_StockEverReturned', 'f_GrpStockCodeYearMonth_Quantity_sum', 'f_GrpStockCodeYearMonth_Quantity_mean', 'f_GrpCountryStockCodeYearMonth_Quantity_sum', 'f_GrpCountryStockCodeYearMonth_Quantity_mean', 'f_GrpCustomerIDStockCode_CustomerIDStockCode_size', 'f_GrpCustomerIDStockCode_StockCode_size', 'f_GrpCustomerIDStockCode_InvoiceNo_size', 'f_CountryID_35', 'Description_2780', 'f_QuantityBins_Large', 'f_QuantityBins_Micro', 'f_QuantityBins_vLarge'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.4077414588405254, 'l1_ratio': 0.026614961889952056, 'max_iter': 1530, 'normalize': 'True'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Selecting top 17 features
+3. Implemented target transformation
+4. Removed outlier treatment
+5. Dropped duplicates
+7. Capped outlier
+8. Added one more bins for "Quantity"
+9. Did not treat negative "Quantity"
+10. Multi Column Aggregation based on "InvoiceNo", "CustomerID", "Country", "StockCode", "Year" and "Month"
+Model Comments:
+ElasticNet- GP Minimize HyperParameters
+Git Comment ID:
+525
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 22-11-2020 17:11:30
+
+Model Name: ElasticNet
+Model File Name: ElasticNet_22_11_2020_171129.sav
+Output File Name: Output_22_11_2020_171129.csv
+Model Score: 0
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'f_ProductReturned', 'f_StockCodeLength', 'f_StockEverReturned', 'f_GrpStockCodeYearMonth_Quantity_sum', 'f_GrpStockCodeYearMonth_Quantity_mean', 'f_GrpCountryStockCodeYearMonth_Quantity_sum', 'f_GrpCountryStockCodeYearMonth_Quantity_mean', 'f_GrpCustomerIDStockCode_CustomerIDStockCode_size', 'f_GrpCustomerIDStockCode_StockCode_size', 'f_GrpCustomerIDStockCode_InvoiceNo_size', 'f_CountryID_35', 'Description_2780', 'f_QuantityBins_Large', 'f_QuantityBins_Micro', 'f_QuantityBins_vLarge'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.4077414588405254, 'l1_ratio': 0.026614961889952056, 'max_iter': 1530, 'normalize': 'True'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Selecting top 17 features
+3. Implemented target transformation
+4. Removed outlier treatment
+5. Dropped duplicates
+7. Capped outlier
+8. Added one more bins for "Quantity"
+9. Did not treat negative "Quantity"
+10. Multi Column Aggregation based on "InvoiceNo", "CustomerID", "Country", "StockCode", "Year" and "Month"10. ElasticNet fitted on top 17 features.
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+525
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 22-11-2020 17:15:49
+
+Model Name: ElasticNet
+Model File Name: GP Minimize Hyper Parameters
+Output File Name: None
+Model Score: 34.14702889146651
+Model Features:
+Index(['StockCode', 'Quantity', 'f_ProductReturned', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpStockCodeYearMonth_Quantity_max', 'f_GrpStockCodeYearMonth_Quantity_mean', 'f_GrpCountryStockCodeYearMonth_Quantity_max', 'f_GrpCountryStockCodeYearMonth_Quantity_mean', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_sum', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_min', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_max', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_mean', 'f_GrpCustomerIDStockCode_Quantity_min', 'f_GrpCustomerIDStockCode_Quantity_max', 'f_GrpCustomerIDStockCode_Quantity_mean', 'f_QuantityBins_Micro', 'f_QuantityBins_vLarge'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.06594942065931965, 'l1_ratio': 0.061265086338665245, 'max_iter': 2841, 'normalize': 'False'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Selecting top 17 features
+3. Implemented target transformation
+4. Removed outlier treatment
+5. Dropped duplicates
+7. Capped outlier
+8. Added one more bins for "Quantity"
+9. Did not treat negative "Quantity"
+10. Multi Column Aggregation based on "InvoiceNo", "CustomerID", "Country", "StockCode", "Year" and "Month"
+Model Comments:
+ElasticNet- GP Minimize HyperParameters
+Git Comment ID:
+525
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 22-11-2020 17:15:50
+
+Model Name: ElasticNet
+Model File Name: ElasticNet_22_11_2020_171549.sav
+Output File Name: Output_22_11_2020_171549.csv
+Model Score: 0
+Model Features:
+Index(['StockCode', 'Quantity', 'f_ProductReturned', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpStockCodeYearMonth_Quantity_max', 'f_GrpStockCodeYearMonth_Quantity_mean', 'f_GrpCountryStockCodeYearMonth_Quantity_max', 'f_GrpCountryStockCodeYearMonth_Quantity_mean', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_sum', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_min', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_max', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_mean', 'f_GrpCustomerIDStockCode_Quantity_min', 'f_GrpCustomerIDStockCode_Quantity_max', 'f_GrpCustomerIDStockCode_Quantity_mean', 'f_QuantityBins_Micro', 'f_QuantityBins_vLarge'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.06594942065931965, 'l1_ratio': 0.061265086338665245, 'max_iter': 2841, 'normalize': 'False'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Selecting top 17 features
+3. Implemented target transformation
+4. Removed outlier treatment
+5. Dropped duplicates
+7. Capped outlier
+8. Added one more bins for "Quantity"
+9. Did not treat negative "Quantity"
+10. Multi Column Aggregation based on "InvoiceNo", "CustomerID", "Country", "StockCode", "Year" and "Month"10. ElasticNet fitted on top 17 features.
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+525
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 22-11-2020 17:20:24
+
+Model Name: Neural Network
+Model File Name: NeuralNetwork_22_11_2020_171839.json
+Output File Name: Output_22_11_2020_171839.csv
+Model Score: 87.45493785302502, 12.43858133629127
+Model Features:
+Index(['StockCode', 'Quantity', 'f_ProductReturned', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpStockCodeYearMonth_Quantity_max', 'f_GrpStockCodeYearMonth_Quantity_mean', 'f_GrpCountryStockCodeYearMonth_Quantity_max', 'f_GrpCountryStockCodeYearMonth_Quantity_mean', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_sum', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_min', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_max', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_mean', 'f_GrpCustomerIDStockCode_Quantity_min', 'f_GrpCustomerIDStockCode_Quantity_max', 'f_GrpCustomerIDStockCode_Quantity_mean', 'f_QuantityBins_Micro', 'f_QuantityBins_vLarge'], dtype='object')
+Model Hyper Parameters:
+None
+Model Preprocessing Comments:
+1. Neural Network
+2. Selecting top 17 features
+4. Implemented target transformation
+5. Removed quantity outlier treatment
+6. Did not convert quantity to positive
+7. Changed learning rate to 1e-3"
+8. Dropped duplicates
+9. Changed decay rate to 1e-6
+10. Capped outlier
+11. Added one more bins for "Quantity"
+12. Treated negative "Quantity"
+Model Comments:
+1. Model Config:
+	2 hidden layers
+	20 neurons in each layer
+	relu activation
+2. learning rate = 0.001
+3. Epochs = 20
+4. Batch Size 32
+5. Optimizer {'name': 'Adam', 'learning_rate': 0.001, 'decay': 0.0, 'beta_1': 0.9, 'beta_2': 0.999, 'epsilon': 1e-07, 'amsgrad': False}5. NeuralNetwork_22_11_2020_171839.h5
+Git Comment ID:
+524
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 22-11-2020 17:24:08
+
+Model Name: Neural Network
+Model File Name: NeuralNetwork_22_11_2020_172201.json
+Output File Name: Output_22_11_2020_172201.csv
+Model Score: 28.768271001525243, 165.34651740408634
+Model Features:
+Index(['StockCode', 'Quantity', 'f_ProductReturned', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpStockCodeYearMonth_Quantity_max', 'f_GrpStockCodeYearMonth_Quantity_mean', 'f_GrpCountryStockCodeYearMonth_Quantity_max', 'f_GrpCountryStockCodeYearMonth_Quantity_mean', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_sum', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_min', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_max', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_mean', 'f_GrpCustomerIDStockCode_Quantity_min', 'f_GrpCustomerIDStockCode_Quantity_max', 'f_GrpCustomerIDStockCode_Quantity_mean', 'f_QuantityBins_Micro', 'f_QuantityBins_vLarge'], dtype='object')
+Model Hyper Parameters:
+None
+Model Preprocessing Comments:
+1. Neural Network
+2. Selecting top 17 features
+4. Implemented target transformation
+5. Removed quantity outlier treatment
+6. Did not convert quantity to positive
+7. Changed learning rate to 1e-3"
+8. Dropped duplicates
+9. Changed decay rate to 1e-6
+10. Capped outlier
+11. Added one more bins for "Quantity"
+12. Treated negative "Quantity"
+Model Comments:
+1. Model Config:
+	2 hidden layers
+	50 neurons in each layer
+	relu activation
+2. learning rate = 0.001
+3. Epochs = 20
+4. Batch Size 32
+5. Optimizer {'name': 'Adam', 'learning_rate': 0.001, 'decay': 0.0, 'beta_1': 0.9, 'beta_2': 0.999, 'epsilon': 1e-07, 'amsgrad': False}5. NeuralNetwork_22_11_2020_172201.h5
+Git Comment ID:
+524
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 22-11-2020 18:02:11
+
+Model Name: Neural Network
+Model File Name: NeuralNetwork_22_11_2020_173307.json
+Output File Name: Output_22_11_2020_173307.csv
+Model Score: 80.96527955932542, 34.73864099548981
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'CustomerID', 'f_ProductReturned', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_StockCodeLength', 'f_GrpCustomerID_Quantity_min', 'f_GrpCustomerID_Quantity_mean', 'f_GrpInvoiceNo_InvoiceNo_size', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_min', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_Quantity_mean', 'f_GrpInvoiceNo_StockCode_size', 'f_GrpStockCodeYearMonth_Quantity_sum', 'f_GrpStockCodeYearMonth_Quantity_min', 'f_GrpStockCodeYearMonth_Quantity_max', 'f_GrpStockCodeYearMonth_Quantity_mean', 'f_GrpCountryStockCodeYearMonth_CountryStockCodeYearMonth_size', 'f_GrpCountryStockCodeYearMonth_Quantity_sum', 'f_GrpCountryStockCodeYearMonth_Quantity_min', 'f_GrpCountryStockCodeYearMonth_Quantity_max', 'f_GrpCountryStockCodeYearMonth_Quantity_mean', 'f_GrpCountryStockCodeYearMonth_StockCode_size', 'f_GrpCountryStockCodeYearMonth_InvoiceNo_size', 'f_GrpCountryStockCodeYearMonth_InvoiceNo_nunique', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_CustomerIDInvoiceNoStockCodeYearMonth_size', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_sum', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_min', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_max', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_mean', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_StockCode_size', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_InvoiceNo_size', 'f_GrpCustomerIDStockCode_CustomerIDStockCode_size', 'f_GrpCustomerIDStockCode_Quantity_sum', 'f_GrpCustomerIDStockCode_Quantity_min', 'f_GrpCustomerIDStockCode_Quantity_max', 'f_GrpCustomerIDStockCode_Quantity_mean', 'f_GrpCustomerIDStockCode_StockCode_size', 'f_GrpCustomerIDStockCode_InvoiceNo_size', 'f_GrpCustomerIDStockCode_InvoiceNo_nunique', 'f_CountryID_35', 'f_CountryID_rest', 'Description_2780', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro', 'f_QuantityBins_vLarge'], dtype='object')
+Model Hyper Parameters:
+None
+Model Preprocessing Comments:
+1. Neural Network
+2. Selecting top 50 features
+4. Implemented target transformation
+5. Removed quantity outlier treatment
+6. Did not convert quantity to positive
+7. Changed learning rate to 1e-3"
+8. Dropped duplicates
+9. Changed decay rate to 1e-6
+10. Capped outlier
+11. Added one more bins for "Quantity"
+12. Treated negative "Quantity"
+Model Comments:
+1. Model Config:
+	3 hidden layers
+	30 neurons in each layer
+	relu activation
+2. learning rate = 0.001
+3. Epochs = 200
+4. Batch Size 32
+5. Optimizer {'name': 'Adam', 'learning_rate': 0.001, 'decay': 0.0, 'beta_1': 0.9, 'beta_2': 0.999, 'epsilon': 1e-07, 'amsgrad': False}5. NeuralNetwork_22_11_2020_173307.h5
+Git Comment ID:
+524
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 22-11-2020 18:04:12
+
+Model Name: ElasticNet
+Model File Name: GP Minimize Hyper Parameters
+Output File Name: None
+Model Score: 23.685706457655176
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'CustomerID', 'f_ProductReturned', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_StockCodeLength', 'f_GrpCustomerID_Quantity_min', 'f_GrpCustomerID_Quantity_mean', 'f_GrpInvoiceNo_InvoiceNo_size', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_min', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_Quantity_mean', 'f_GrpInvoiceNo_StockCode_size', 'f_GrpStockCodeYearMonth_Quantity_sum', 'f_GrpStockCodeYearMonth_Quantity_min', 'f_GrpStockCodeYearMonth_Quantity_max', 'f_GrpStockCodeYearMonth_Quantity_mean', 'f_GrpCountryStockCodeYearMonth_CountryStockCodeYearMonth_size', 'f_GrpCountryStockCodeYearMonth_Quantity_sum', 'f_GrpCountryStockCodeYearMonth_Quantity_min', 'f_GrpCountryStockCodeYearMonth_Quantity_max', 'f_GrpCountryStockCodeYearMonth_Quantity_mean', 'f_GrpCountryStockCodeYearMonth_StockCode_size', 'f_GrpCountryStockCodeYearMonth_InvoiceNo_size', 'f_GrpCountryStockCodeYearMonth_InvoiceNo_nunique', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_CustomerIDInvoiceNoStockCodeYearMonth_size', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_sum', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_min', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_max', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_mean', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_StockCode_size', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_InvoiceNo_size', 'f_GrpCustomerIDStockCode_CustomerIDStockCode_size', 'f_GrpCustomerIDStockCode_Quantity_sum', 'f_GrpCustomerIDStockCode_Quantity_min', 'f_GrpCustomerIDStockCode_Quantity_max', 'f_GrpCustomerIDStockCode_Quantity_mean', 'f_GrpCustomerIDStockCode_StockCode_size', 'f_GrpCustomerIDStockCode_InvoiceNo_size', 'f_GrpCustomerIDStockCode_InvoiceNo_nunique', 'f_CountryID_35', 'f_CountryID_rest', 'Description_2780', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro', 'f_QuantityBins_vLarge'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.9263681430297809, 'l1_ratio': 0.4798777279256131, 'max_iter': 2481, 'normalize': 'True'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Selecting top 50 features
+3. Implemented target transformation
+4. Removed outlier treatment
+5. Dropped duplicates
+7. Capped outlier
+8. Added one more bins for "Quantity"
+9. Did not treat negative "Quantity"
+10. Multi Column Aggregation based on "InvoiceNo", "CustomerID", "Country", "StockCode", "Year" and "Month"
+Model Comments:
+ElasticNet- GP Minimize HyperParameters
+Git Comment ID:
+525
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Date Time: 22-11-2020 18:04:13
+
+Model Name: ElasticNet
+Model File Name: ElasticNet_22_11_2020_180412.sav
+Output File Name: Output_22_11_2020_180412.csv
+Model Score: 0
+Model Features:
+Index(['InvoiceNo', 'StockCode', 'Quantity', 'CustomerID', 'f_ProductReturned', 'f_InvoiceDateWeekOfYear', 'f_InvoiceDateWeekend', 'f_StockCodeLength', 'f_GrpCustomerID_Quantity_min', 'f_GrpCustomerID_Quantity_mean', 'f_GrpInvoiceNo_InvoiceNo_size', 'f_GrpInvoiceNo_Quantity_sum', 'f_GrpInvoiceNo_Quantity_min', 'f_GrpInvoiceNo_Quantity_max', 'f_GrpInvoiceNo_Quantity_mean', 'f_GrpInvoiceNo_StockCode_size', 'f_GrpStockCodeYearMonth_Quantity_sum', 'f_GrpStockCodeYearMonth_Quantity_min', 'f_GrpStockCodeYearMonth_Quantity_max', 'f_GrpStockCodeYearMonth_Quantity_mean', 'f_GrpCountryStockCodeYearMonth_CountryStockCodeYearMonth_size', 'f_GrpCountryStockCodeYearMonth_Quantity_sum', 'f_GrpCountryStockCodeYearMonth_Quantity_min', 'f_GrpCountryStockCodeYearMonth_Quantity_max', 'f_GrpCountryStockCodeYearMonth_Quantity_mean', 'f_GrpCountryStockCodeYearMonth_StockCode_size', 'f_GrpCountryStockCodeYearMonth_InvoiceNo_size', 'f_GrpCountryStockCodeYearMonth_InvoiceNo_nunique', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_CustomerIDInvoiceNoStockCodeYearMonth_size', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_sum', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_min', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_max', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_Quantity_mean', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_StockCode_size', 'f_GrpCustomerIDInvoiceNoStockCodeYearMonth_InvoiceNo_size', 'f_GrpCustomerIDStockCode_CustomerIDStockCode_size', 'f_GrpCustomerIDStockCode_Quantity_sum', 'f_GrpCustomerIDStockCode_Quantity_min', 'f_GrpCustomerIDStockCode_Quantity_max', 'f_GrpCustomerIDStockCode_Quantity_mean', 'f_GrpCustomerIDStockCode_StockCode_size', 'f_GrpCustomerIDStockCode_InvoiceNo_size', 'f_GrpCustomerIDStockCode_InvoiceNo_nunique', 'f_CountryID_35', 'f_CountryID_rest', 'Description_2780', 'f_QuantityBins_Large', 'f_QuantityBins_Medium', 'f_QuantityBins_Micro', 'f_QuantityBins_vLarge'], dtype='object')
+Model Hyper Parameters:
+{'alpha': 0.9263681430297809, 'l1_ratio': 0.4798777279256131, 'max_iter': 2481, 'normalize': 'True'}
+Model Preprocessing Comments:
+1. ElasticNet GP minimize
+2. Selecting top 50 features
+3. Implemented target transformation
+4. Removed outlier treatment
+5. Dropped duplicates
+7. Capped outlier
+8. Added one more bins for "Quantity"
+9. Did not treat negative "Quantity"
+10. Multi Column Aggregation based on "InvoiceNo", "CustomerID", "Country", "StockCode", "Year" and "Month"10. ElasticNet fitted on top 50 features.
+Model Comments:
+1. Predicted values after fitting the model using GPMinimize.
+Git Comment ID:
+525
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
