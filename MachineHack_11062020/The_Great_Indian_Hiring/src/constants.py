@@ -7,10 +7,10 @@ constTRAINFILENAME = 'Train.csv'
 constTESTFILENAME = 'Test.csv'
 constLOGFILENAME = 'ModelLogs.txt'
 constTARGETCOLUMN = 'UnitPrice'
-constTWILIOACCOUNTSID = 'ACbfbf6195c8f5a7eccbe5ff4747d3647e'
-constTWILIOACCOUNTAUTH = 'db337b0341cdb9031eee4387230bc55d'
-constTWILIOWHATSAPPFROM = 'whatsapp:+14155238886'
-constTWILIOWHATSAPPTO = 'whatsapp:+919840517151'
+constTWILIOACCOUNTSID = ###################
+constTWILIOACCOUNTAUTH = ###################
+constTWILIOWHATSAPPFROM = ###################
+constTWILIOWHATSAPPTO = ###################
 
 COLUMNSTODROP = ['InvoiceDate',
                  'f_GrpCustomerID_CustomerID_size',
